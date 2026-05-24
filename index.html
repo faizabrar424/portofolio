@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Punksaurus — DevOps Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <nav>
+      <div class="nav-logo">PUNKSAURUS</div>
+      <div class="nav-links">
+        <a href="#stack">Stack</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-tag">// Fresh Graduate · DevOps Engineer</div>
+        <h1 class="hero-name">
+          Building<br />
+          <span class="accent">Infra</span><span class="dim">structure</span><br />
+          That Scales
+        </h1>
+        <p class="hero-desc">
+          Passionate about automating everything — from CI/CD pipelines to infrastructure provisioning. Currently
+          building a DevOps portfolio with real-world tools.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">View Projects →</a>
+          <a href="https://github.com/faizabrar424" target="_blank" class="btn-secondary">GitHub ↗</a>
+        </div>
+      </div>
+
+      <svg class="hero-bg" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="250" cy="250" r="200" stroke="#00ff9d" stroke-width="0.5" opacity="0.2" />
+        <circle cx="250" cy="250" r="150" stroke="#00ff9d" stroke-width="0.5" opacity="0.15" />
+        <circle cx="250" cy="250" r="100" stroke="#00ff9d" stroke-width="0.5" opacity="0.1" />
+        <circle cx="250" cy="250" r="4" fill="#00ff9d" opacity="0.6" />
+        <line x1="250" y1="50" x2="250" y2="450" stroke="#00ff9d" stroke-width="0.3" opacity="0.1" />
+        <line x1="50" y1="250" x2="450" y2="250" stroke="#00ff9d" stroke-width="0.3" opacity="0.1" />
+      </svg>
+    </section>
+
+    <!-- STACK -->
+    <section class="stack-section" id="stack">
+      <div class="section-label">// 02 Tech Stack</div>
+      <h2 class="section-title fade-in">Tools I Work With</h2>
+      <div class="stack-grid">
+        <div class="stack-item fade-in">Docker<span>Containerization</span></div>
+        <div class="stack-item fade-in">Ansible<span>Automation</span></div>
+        <div class="stack-item fade-in">Prometheus<span>Monitoring</span></div>
+        <div class="stack-item fade-in">Grafana<span>Visualization</span></div>
+        <div class="stack-item fade-in">GitHub Actions<span>CI/CD</span></div>
+        <div class="stack-item fade-in">Nginx<span>Reverse Proxy</span></div>
+        <div class="stack-item fade-in">Linux<span>Lubuntu</span></div>
+        <div class="stack-item fade-in">Next.js<span>Frontend</span></div>
+        <div class="stack-item fade-in">MongoDB<span>Database</span></div>
+        <div class="stack-item fade-in">Alertmanager<span>Alerting</span></div>
+        <div class="stack-item fade-in">Node Exporter<span>Metrics</span></div>
+        <div class="stack-item fade-in">Bash<span>Scripting</span></div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="section-label">// 03 Projects</div>
+      <h2 class="section-title fade-in">What I've Built</h2>
+      <div class="projects-grid">
+        <div class="project-card fade-in">
+          <div class="project-num">PROJECT_01</div>
+          <h3 class="project-title">Monitoring Stack</h3>
+          <p class="project-desc">
+            Full observability stack with Prometheus, Grafana, Alertmanager, and Node Exporter. Custom alert rules with
+            Telegram notifications via webhook.
+          </p>
+          <div class="project-tags">
+            <span class="tag">PROMETHEUS</span>
+            <span class="tag">GRAFANA</span>
+            <span class="tag">ALERTMANAGER</span>
+            <span class="tag">DOCKER COMPOSE</span>
+          </div>
+          <a href="https://github.com/faizabrar424" target="_blank" class="project-link">View on GitHub →</a>
+        </div>
+
+        <div class="project-card fade-in">
+          <div class="project-num">PROJECT_02</div>
+          <h3 class="project-title">CI/CD Pipeline</h3>
+          <p class="project-desc">
+            Automated pipeline using GitHub Actions for Next.js blog app. Multi-stage Docker build, non-root user,
+            healthcheck, and MongoDB with network isolation.
+          </p>
+          <div class="project-tags">
+            <span class="tag">GITHUB ACTIONS</span>
+            <span class="tag">DOCKER</span>
+            <span class="tag">NEXT.JS</span>
+            <span class="tag">MONGODB</span>
+          </div>
+          <a href="https://github.com/faizabrar424/blog-app" target="_blank" class="project-link">View on GitHub →</a>
+        </div>
+
+        <div class="project-card fade-in">
+          <div class="project-num">PROJECT_03</div>
+          <h3 class="project-title">Ansible Infrastructure</h3>
+          <p class="project-desc">
+            Server automation with Ansible Role structure, Jinja2 templates, and Vault encryption. Nginx reverse proxy
+            configured automatically. Idempotent by design.
+          </p>
+          <div class="project-tags">
+            <span class="tag">ANSIBLE</span>
+            <span class="tag">NGINX</span>
+            <span class="tag">ANSIBLE VAULT</span>
+            <span class="tag">JINJA2</span>
+          </div>
+          <a href="https://github.com/faizabrar424" target="_blank" class="project-link">View on GitHub →</a>
+        </div>
+
+        <div class="project-card fade-in">
+          <div class="project-num">PROJECT_04</div>
+          <h3 class="project-title">End-to-end DevOps Pipeline</h3>
+          <p class="project-desc">
+            Complete pipeline: push code → GitHub Actions builds image → Ansible auto-deploys → Prometheus monitors →
+            Telegram alerts. Full observability with prom-client app metrics.
+          </p>
+          <div class="project-tags">
+            <span class="tag">ANSIBLE</span>
+            <span class="tag">GHCR</span>
+            <span class="tag">PROMETHEUS</span>
+            <span class="tag">SELF-HOSTED RUNNER</span>
+          </div>
+          <a href="https://github.com/faizabrar424" target="_blank" class="project-link">View on GitHub →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section" id="contact">
+      <div class="section-label">// 04 Contact</div>
+      <h2 class="section-title fade-in">Let's Connect</h2>
+      <p class="contact-desc fade-in">Open to DevOps / IT Infrastructure opportunities.</p>
+      <div class="contact-links fade-in">
+        <a href="https://github.com/faizabrar424" target="_blank" class="contact-link">GitHub ↗</a>
+        <a href="mailto:your@email.com" class="contact-link">Email ↗</a>
+        <a href="https://linkedin.com/in/username" target="_blank" class="contact-link">LinkedIn ↗</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 PUNKSAURUS — Built with HTML + CSS</p>
+      <div class="status">
+        <div class="status-dot"></div>
+        OPEN TO WORK
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
